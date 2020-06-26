@@ -40,40 +40,40 @@ for i in JOLT_JOB_CATEGORIES:
 # print (productJobsList)
 # print (softwareJobsList)
 
-# print ('***Posting Administration Jobs***')
-# num = 0
-# for i in administrationJobsList:
-#     num += 1
-#     firebasePost = FirebasePost(desc=i.getCompanyName(), iconUrl=i.getLogoUrl(), location=i.getLocation(), salary=i.getSalary(), title=i.getJobTitle(), url=i.getJobUrl(), companyName=i.getCompanyName())
-#     firebasePost.administrationPost('adm'+("%03d" % (num,)))
+print ('***Posting Administration Jobs***')
+num = 0
+for i in administrationJobsList:
+    num += 1
+    firebasePost = FirebasePost(desc=i.getCompanyName(), iconUrl=i.getLogoUrl(), location=i.getLocation(), salary=i.getSalary(), title=i.getJobTitle(), url=i.getJobUrl(), companyName=i.getCompanyName())
+    firebasePost.administrationPost('adm'+("%03d" % (num,)))
 
-# print ('***Posting Business Jobs***')
-# num = 0
-# for i in businessJobsList:
-#     num += 1
-#     firebasePost = FirebasePost(desc=i.getCompanyName(), iconUrl=i.getLogoUrl(), location=i.getLocation(), salary=i.getSalary(), title=i.getJobTitle(), url=i.getJobUrl(), companyName=i.getCompanyName())
-#     firebasePost.businessPost('bus'+("%03d" % (num,)))
+print ('***Posting Business Jobs***')
+num = 0
+for i in businessJobsList:
+    num += 1
+    firebasePost = FirebasePost(desc=i.getCompanyName(), iconUrl=i.getLogoUrl(), location=i.getLocation(), salary=i.getSalary(), title=i.getJobTitle(), url=i.getJobUrl(), companyName=i.getCompanyName())
+    firebasePost.businessPost('bus'+("%03d" % (num,)))
 
-# print ('***Posting Design Jobs***')
-# num = 0
-# for i in designJobsList:
-#     num += 1
-#     firebasePost = FirebasePost(desc=i.getCompanyName(), iconUrl=i.getLogoUrl(), location=i.getLocation(), salary=i.getSalary(), title=i.getJobTitle(), url=i.getJobUrl(), companyName=i.getCompanyName())
-#     firebasePost.designPost('des'+("%03d" % (num,)))
+print ('***Posting Design Jobs***')
+num = 0
+for i in designJobsList:
+    num += 1
+    firebasePost = FirebasePost(desc=i.getCompanyName(), iconUrl=i.getLogoUrl(), location=i.getLocation(), salary=i.getSalary(), title=i.getJobTitle(), url=i.getJobUrl(), companyName=i.getCompanyName())
+    firebasePost.designPost('des'+("%03d" % (num,)))
 
-# print ('***Posting Hardware Jobs***')
-# num = 0
-# for i in hardwareJobsList:
-#     num += 1
-#     firebasePost = FirebasePost(desc=i.getCompanyName(), iconUrl=i.getLogoUrl(), location=i.getLocation(), salary=i.getSalary(), title=i.getJobTitle(), url=i.getJobUrl(), companyName=i.getCompanyName())
-#     firebasePost.hardwarePost('har'+("%03d" % (num,)))
+print ('***Posting Hardware Jobs***')
+num = 0
+for i in hardwareJobsList:
+    num += 1
+    firebasePost = FirebasePost(desc=i.getCompanyName(), iconUrl=i.getLogoUrl(), location=i.getLocation(), salary=i.getSalary(), title=i.getJobTitle(), url=i.getJobUrl(), companyName=i.getCompanyName())
+    firebasePost.hardwarePost('har'+("%03d" % (num,)))
 
-# print ('***Posting HR Jobs***')
-# num = 0
-# for i in hrJobsList:
-#     num += 1
-#     firebasePost = FirebasePost(desc=i.getCompanyName(), iconUrl=i.getLogoUrl(), location=i.getLocation(), salary=i.getSalary(), title=i.getJobTitle(), url=i.getJobUrl(), companyName=i.getCompanyName())
-#     firebasePost.hrPost('hre'+("%03d" % (num,)))
+print ('***Posting HR Jobs***')
+num = 0
+for i in hrJobsList:
+    num += 1
+    firebasePost = FirebasePost(desc=i.getCompanyName(), iconUrl=i.getLogoUrl(), location=i.getLocation(), salary=i.getSalary(), title=i.getJobTitle(), url=i.getJobUrl(), companyName=i.getCompanyName())
+    firebasePost.hrPost('hre'+("%03d" % (num,)))
 
 print ('***Posting Marketing Jobs***')
 num = 0
